@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+header {
+  width: 14930px;
+  max-width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7F00FF;
+}
+
+h1, h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400px;
+}
+
+h1, a, h2{
+  color: white;
+  text-decoration: none;
+}
+
+p, form label, form button, a {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 13px;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.book-week-img img {
+  height: 700px;
+  margin-top: 50px;
+}
+
+section .book-week-img, .about-us{
+  display:flex;
+  align-items: center;
+}
+
+section .book-week-title  h2{
+  padding-bottom: 20px;
+}
+
+.book-week {
+  background-color: #0BB3B3; 
+}
+
+section .about-us-img img {
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-right: 55px;
+}
+
+section .about-us-title h2, section .about-us-title p, section .about-us-title h2 {
+  padding-bottom: 20px;
+}
+
+form input, form label, form button, .about-us-title {
+  display: block;
+  margin-left: 35px;
+}
+
+form input {
+  border-radius: 5px;
+  padding: 6px;
+  width: 370px;;
+}
+
+form label {
+  padding: 5px 0px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 5px 5px;
+  background-color: #D3D3D3;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a8a6a6;
+}
+
+.about-us {
+  background-color: #7F00FF;
+}
+
+footer img {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
